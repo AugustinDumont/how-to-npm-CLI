@@ -1,0 +1,27 @@
+{
+  "name": "@augustindumont/holidates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AugustinDumont/how-to-npm-CLI.git"
+  },
+  "author": "Augustin Dumont",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AugustinDumont/how-to-npm-CLI/issues"
+  },
+  "homepage": "https://github.com/AugustinDumont/how-to-npm-CLI#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "country-list": "^2.2.0",
+    "dayjs": "^1.8.17"
+  },
+  "bin": {
+    "holidates": "./bin/index.js"
+  }
+}
